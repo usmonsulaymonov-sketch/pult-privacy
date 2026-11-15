@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Pult</title>
+  <meta name="description" content="Privacy Policy for Pult — TV remote control for iPhone and Android." />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="lang.js"></script>
+</head>
+<body>
+
+<header>
+  <img class="logo" src="icon.svg" alt="Pult" />
+  <h1>Pult</h1>
+  <p data-lang="en">TV remote · Privacy Policy</p>
+  <p data-lang="ru">Пульт для телевизора · Политика конфиденциальности</p>
+  <nav>
+    <a href="support.html" data-lang="en">Support</a>
+    <a href="support.html" data-lang="ru">Поддержка</a>
+  </nav>
+</header>
+
+<div class="lang-tabs">
+  <button class="lang-tab" data-set="en" onclick="setLang('en')">English</button>
+  <button class="lang-tab" data-set="ru" onclick="setLang('ru')">Русский</button>
+</div>
+
+<!-- ══════════════════════════════ ENGLISH ══════════════════════════════ -->
+<div class="content" data-lang="en">
+  <p class="updated">Last updated: November 15, 2026</p>
+
+  <div class="section">
+    <span class="section-icon">📋</span>
+    <h2>Introduction</h2>
+    <p>Pult ("the app") turns your phone into a remote control for your TV. It works on iPhone and on Android phones and controls
+    TVs over your home Wi‑Fi (LG webOS, Android TV / Google TV, Samsung Tizen, Sony BRAVIA), through the phone's infrared port,
+    or as a Bluetooth keyboard and mouse (Android).</p>
+    <div class="highlight">Pult has no account, no server, no analytics and no ads. Everything it stores stays on your phone,
+    and it talks only to the TVs in your home network — we never receive your data and cannot see it.</div>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">📺</span>
+    <h2>1. What the app stores on your phone</h2>
+    <ul>
+      <li>The TVs you added: the name, local IP address, platform and model, and the TV's MAC address if it reports it (used only to switch the TV on over Wi‑Fi);</li>
+      <li>Your remote layout, quick actions and app shortcuts for each TV;</li>
+      <li>Pairing keys: access tokens issued by the TV, the fingerprints of TV certificates you approved and, for Android TV, a key and certificate created on the phone.
+        These are kept only in the phone's protected storage (Keychain on iPhone, Android Keystore on Android) and are never copied to backups on Android;</li>
+      <li>For the infrared remote: the code set you picked. Codes come from the open irdb database, which is included in the app — nothing is downloaded;</li>
+      <li>For the Bluetooth remote: the address of the TV you connected.</li>
+    </ul>
+    <p>The app does not collect device identifiers, location, contacts, browsing history or usage statistics.</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">🔌</span>
+    <h2>2. Network and connections</h2>
+    <ul>
+      <li>The app searches for TVs in your local network (SSDP and Bonjour / mDNS) and connects only to private addresses (192.168.x.x, 10.x.x.x and similar).
+        It does not send requests to the internet;</li>
+      <li>Commands, text you type and, for Android TV, your voice go directly from the phone to your TV over the local network. When the TV uses an encrypted connection, the app checks the TV's certificate;</li>
+      <li>Switching the TV on over Wi‑Fi sends a standard "Wake‑on‑LAN" packet inside your home network;</li>
+      <li>The infrared and Bluetooth remotes do not use the network at all.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">🎙️</span>
+    <h2>3. Microphone and speech</h2>
+    <p>The microphone is used only after you tap the microphone button:</p>
+    <ul>
+      <li><b>Voice for Android TV:</b> your phrase (up to 15 seconds) is streamed to the TV, and the TV's own assistant handles it under the TV maker's terms. The app does not record or keep the audio;</li>
+      <li><b>Speech to text:</b> for search in YouTube and typing on the TV, speech is recognised by the phone itself. On iPhone, recognition runs only on the device — the audio does not leave the phone.
+        On Android, the phone's speech service is used (usually Google, or another installed service) under that provider's privacy policy.
+        The app receives only the recognised text and sends it to the TV.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">🔐</span>
+    <h2>4. Permissions</h2>
+    <ul>
+      <li><b>Local network / Wi‑Fi:</b> to find and control TVs at home;</li>
+      <li><b>Microphone:</b> only for voice, only after you tap the button;</li>
+      <li><b>Nearby devices (Bluetooth, Android):</b> only for the Bluetooth remote — to connect to the TV and to make the phone visible for pairing for two minutes when you ask;</li>
+      <li><b>Infrared (Android):</b> to send remote‑control signals through the phone's IR port.</li>
+    </ul>
+    <p>You can turn any permission off in the phone's settings; the related feature then stops working, the rest of the app continues to work.</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">⌨️</span>
+    <h2>5. Text you type</h2>
+    <p>Text typed on the phone's keyboard is sent to the text field on your TV and is not stored or written to logs. Diagnostic logs on the phone contain only the length of the text, never the text itself.</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">🤝</span>
+    <h2>6. Sharing with third parties</h2>
+    <p>We do not sell, share or transfer any data. The app contains no third‑party analytics, advertising or tracking SDKs. Data goes only to your own TV; on Android, speech recognition is done by the phone's system service as described in section 3.</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">🗑️</span>
+    <h2>7. Deleting your data</h2>
+    <p>Delete a TV in "Devices" — its pairing keys, layout, quick actions and shortcuts are removed from the phone. Uninstalling the app removes everything. To remove the phone on the TV side, delete it in the TV's settings (for example, the list of connected mobile devices or Bluetooth devices).</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">👶</span>
+    <h2>8. Children</h2>
+    <p>The app is a general remote control and is not directed at children under 13. It does not knowingly collect any personal information from anyone.</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">ℹ️</span>
+    <h2>9. Trademarks</h2>
+    <p>Pult is an independent app and is not affiliated with LG, Samsung, Sony, Google or other TV makers. Their names are used only to describe compatibility.
+    Infrared codes: contains irdb by Simon Peter and contributors, used under permission (<a href="https://github.com/probonopd/irdb">github.com/probonopd/irdb</a>).</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">🔄</span>
+    <h2>10. Changes to this policy</h2>
+    <p>If the policy changes, the new version will be published on this page with a new date.</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">✉️</span>
+    <h2>11. Contact</h2>
+    <p>Questions about privacy: <a href="mailto:usmon.sulaymonov@gmail.com">usmon.sulaymonov@gmail.com</a></p>
+  </div>
+</div>
+
+<!-- ══════════════════════════════ РУССКИЙ ══════════════════════════════ -->
+<div class="content" data-lang="ru">
+  <p class="updated">Последнее обновление: 15 ноября 2026 г.</p>
+
+  <div class="section">
+    <span class="section-icon">📋</span>
+    <h2>Введение</h2>
+    <p>Pult («приложение») превращает телефон в пульт для телевизора. Оно работает на iPhone и на телефонах Android и управляет
+    телевизором через домашний Wi‑Fi (LG webOS, Android TV / Google TV, Samsung Tizen, Sony BRAVIA), через ИК-порт телефона
+    или как Bluetooth-клавиатура и мышь (Android).</p>
+    <div class="highlight">У Pult нет аккаунта, сервера, аналитики и рекламы. Всё, что приложение хранит, остаётся на телефоне,
+    а связывается оно только с телевизорами в вашей домашней сети — мы не получаем ваши данные и не можем их увидеть.</div>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">📺</span>
+    <h2>1. Что хранится на телефоне</h2>
+    <ul>
+      <li>Добавленные телевизоры: название, локальный IP-адрес, платформа и модель, а также MAC-адрес, если ТВ его сообщает (только чтобы включать ТВ по Wi‑Fi);</li>
+      <li>Ваша раскладка пульта, быстрые действия и ярлыки приложений — для каждого ТВ;</li>
+      <li>Ключи сопряжения: токены доступа, выданные телевизором, отпечатки одобренных вами сертификатов ТВ и для Android TV — ключ и сертификат, созданные на телефоне.
+        Они хранятся только в защищённом хранилище телефона (Keychain на iPhone, Android Keystore на Android) и на Android не попадают в резервные копии;</li>
+      <li>Для ИК-пульта — выбранный набор кодов. Коды из открытой базы irdb встроены в приложение, ничего не скачивается;</li>
+      <li>Для Bluetooth-пульта — адрес подключённого телевизора.</li>
+    </ul>
+    <p>Приложение не собирает идентификаторы устройства, местоположение, контакты, историю браузера и статистику использования.</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">🔌</span>
+    <h2>2. Сеть и подключения</h2>
+    <ul>
+      <li>Приложение ищет телевизоры в локальной сети (SSDP и Bonjour / mDNS) и подключается только к частным адресам (192.168.x.x, 10.x.x.x и подобным).
+        Запросов в интернет оно не отправляет;</li>
+      <li>Команды, набранный текст и для Android TV ваш голос идут с телефона прямо на телевизор по локальной сети. Если ТВ использует шифрованное соединение, приложение проверяет его сертификат;</li>
+      <li>Включение ТВ по Wi‑Fi — это стандартный пакет Wake-on-LAN внутри вашей домашней сети;</li>
+      <li>ИК- и Bluetooth-пульт сеть не используют вовсе.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">🎙️</span>
+    <h2>3. Микрофон и речь</h2>
+    <p>Микрофон включается только после нажатия кнопки микрофона:</p>
+    <ul>
+      <li><b>Голос для Android TV:</b> фраза (до 15 секунд) передаётся на телевизор, и её обрабатывает ассистент самого ТВ по правилам производителя. Приложение не записывает и не хранит звук;</li>
+      <li><b>Речь в текст:</b> для поиска в YouTube и ввода текста на ТВ речь распознаёт сам телефон. На iPhone распознавание идёт только на устройстве — звук не покидает телефон.
+        На Android используется служба распознавания речи телефона (обычно Google или другая установленная) по её политике конфиденциальности.
+        Приложение получает только распознанный текст и отправляет его на телевизор.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">🔐</span>
+    <h2>4. Разрешения</h2>
+    <ul>
+      <li><b>Локальная сеть / Wi‑Fi:</b> найти телевизоры дома и управлять ими;</li>
+      <li><b>Микрофон:</b> только для голоса и только после нажатия кнопки;</li>
+      <li><b>Устройства поблизости (Bluetooth, Android):</b> только для Bluetooth-пульта — подключиться к ТВ и по вашей просьбе сделать телефон видимым для сопряжения на 2 минуты;</li>
+      <li><b>ИК-порт (Android):</b> отправлять сигналы пульта через ИК-порт телефона.</li>
+    </ul>
+    <p>Любое разрешение можно выключить в настройках телефона: перестанет работать только связанная с ним функция.</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">⌨️</span>
+    <h2>5. Набранный текст</h2>
+    <p>Текст с клавиатуры телефона уходит в поле ввода на телевизоре и не сохраняется и не пишется в журналы. В диагностическом журнале телефона — только длина текста, но не сам текст.</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">🤝</span>
+    <h2>6. Передача третьим лицам</h2>
+    <p>Мы не продаём и не передаём никакие данные. В приложении нет сторонних SDK аналитики, рекламы и отслеживания. Данные уходят только на ваш телевизор; на Android распознавание речи выполняет системная служба телефона, как описано в разделе 3.</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">🗑️</span>
+    <h2>7. Удаление данных</h2>
+    <p>Удалите телевизор в разделе «Устройства» — с телефона удалятся его ключи сопряжения, раскладка, быстрые действия и ярлыки. Удаление приложения стирает всё. Чтобы убрать телефон на стороне ТВ, удалите его в настройках телевизора (например, в списке подключённых мобильных устройств или устройств Bluetooth).</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">👶</span>
+    <h2>8. Дети</h2>
+    <p>Приложение — обычный пульт и не предназначено для детей младше 13 лет. Оно сознательно не собирает ни у кого личные данные.</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">ℹ️</span>
+    <h2>9. Товарные знаки</h2>
+    <p>Pult — независимое приложение, не связанное с LG, Samsung, Sony, Google и другими производителями телевизоров. Их названия используются только для описания совместимости.
+    ИК-коды: Contains irdb by Simon Peter and contributors, used under permission (<a href="https://github.com/probonopd/irdb">github.com/probonopd/irdb</a>).</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">🔄</span>
+    <h2>10. Изменения политики</h2>
+    <p>Если политика изменится, новая версия появится на этой странице с новой датой.</p>
+  </div>
+
+  <div class="section">
+    <span class="section-icon">✉️</span>
+    <h2>11. Контакты</h2>
+    <p>Вопросы о конфиденциальности: <a href="mailto:usmon.sulaymonov@gmail.com">usmon.sulaymonov@gmail.com</a></p>
+  </div>
+</div>
+
+<footer>
+  <a href="support.html">Support / Поддержка</a> · Pult
+</footer>
+
+</body>
+</html>
